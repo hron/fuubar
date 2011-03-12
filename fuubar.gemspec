@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = "fuubar"
-  s.version     = '0.0.3'
+  s.version     = '0.0.4'
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Nicholas Evans", "Jeff Kreeftmeijer"]
   s.email       = ["jeff@kreeftmeijer.nl"]
@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency('rspec', ["~> 2.0"])
-  s.add_dependency('ruby-progressbar', ["~> 0.0.9"])
+  s.add_dependency('chalofa_ruby-progressbar', ["~> 0.0.9"])
   s.add_dependency('rspec-instafail', ["~> 0.1.4"])
 end
